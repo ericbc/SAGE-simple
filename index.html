@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SAGE pg2</title>
+	<title>Sage: lightpage</title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Teko:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-	<header>
-	<img src="#" alt="">
+	<header class='nav'>
+		<img src="img/logo.svg" alt="SAGE logo">
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a style="color:red; border-bottom: 2px solid red;"href="#">Home</a></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Services</a></li>
@@ -20,22 +24,22 @@
 		</nav>
 	</header>
 	<main>
-		<section>
+		<section class='head'>
 			<h1>We build websites and apps that people love</h1>
 			<h2>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</h2>
 			<a href="#">Explore More</a>
 			<ul>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li style="opacity:.22"><a href="#"></a></li>
+				<li style="color:white"><a href="#"></a></li>
+				<li style="opacity:.22"><a href="#"></a></li>
+				<li style="opacity:.22"><a href="#"></a></li>
 			</ul>
 		</section>
-		<section>
+		<div class='page clearfix'>
 			<h2>My projects</h2>
-
-			<article>
-				<figure><a href="#"><img src="#" alt=""></a>
+		
+			<article class='clearfix'>
+				<figure><a href="#"><img src="img/project1.jpg" alt=""></a>
 					<h3>Model S Catalog</h3>
 					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
 					<figcaption>
@@ -52,8 +56,8 @@
 				</figure>
 			</article>
 
-			<article>
-				<figure><a href="#"><img src="#" alt=""></a>
+			<article class='clearfix'>
+				<figure><a href="#"><img src="img/project2.jpg" alt=""></a>
 					<h3>Discovery Channel iPad</h3>
 					<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
 					<figcaption>
@@ -70,9 +74,9 @@
 				</figure>
 
 			</article>
-
-			<article>
-				<figure><a href="#"><img src="#" alt=""></a>
+		
+			<article class='clearfix'>
+				<figure><a href="#"><img src="img/project3.jpg" alt=""></a>
 					<h3>Stuhrling</h3>
 					<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
 					<figcaption>
@@ -90,8 +94,8 @@
 
 			</article>
 
-			<article>
-				<figure><a href="#"><img src="#" alt=""></a>
+			<article class='clearfix'>
+				<figure><a href="#"><img src="img/project4.jpg" alt=""></a>
 					<h3>Infinity Spaces</h3>
 					<p>Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
 					<figcaption>
@@ -108,15 +112,17 @@
 				</figure>
 			</article>
 
-			<a href="#">Show More Projects</a>
+			<a class='bot clearfix' href="#">Show More Projects</a>
+
+		</div>
+		<section class='showcase'>
+			
+				<h2>Showcasing your work has never been more fun</h2>
+				<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
+				<a href="#">get in touch</a>
 
 		</section>
-		<section>
-			<h2>Showcasing your work has never been more fun</h2>
-			<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
-			<a href="#">get in touch</a>
-		</section>
-		<aside>
+		<aside class="clearfix">
 			<h2>stay connected</h2>
 			<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
 			<ul>
@@ -142,7 +148,10 @@
 				</li>
 			</ul>	
 		</aside>
-
+		
+		<footer class="clearfix">
+			<p>Copyright © 2015 SAGE Agency Worldwide. All rights reserved.</p>
+		</footer>
 
 	</main>
 	

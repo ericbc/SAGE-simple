@@ -1,0 +1,308 @@
+
+*{
+	box-sizing: border-box;
+	/*font-size: 67.5%;*/
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #bfbdbf;
+	text-align: center;
+	background-color: #eee;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+header {
+	background-color: white;
+}
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+    display: inline-block;
+    margin: 0 200px;
+    left:-240px;
+    position:relative;
+}
+
+header nav {
+	display: inline-block;
+	position: relative;
+	right:-40px;
+}
+
+.nav ul li {
+	display:inline-block;
+	position:relative;
+	top:-27px;
+	padding:0px;
+}
+
+
+
+.nav a{
+	display: block;
+	width: 90px;
+}
+
+.nav a:visited{
+	color:#bbb;
+}
+
+.nav a:link{
+	color:#bbb;
+}
+
+
+/*Top Main*/
+
+.head{
+	background-image: url(../img/maincarouselbg.jpg);
+	background-size: cover;
+	height: 1000px;
+}
+
+.head h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Teko' sans-serif;
+    font-weight: 300;
+    line-height: 10rem;
+    padding-top: 15rem;
+    margin: 0 auto;
+    width: 1200px;
+    letter-spacing: 1.03rem;
+}
+
+.head h2  {
+    max-width: 750px;
+    display: inline-block;
+}
+
+.head a {
+	display:table;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px 40px;
+	letter-spacing: 3px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: 'Teko';
+}
+
+.head a:visited{
+	color: black;
+}
+
+.head a:link{
+	color: black;
+}
+
+.head ul li{
+	display: inline-block;
+	text-align: center;
+	margin: 13rem 5px 5px 5px;
+}
+
+.page h2{
+    font-family: 'Teko' sans-serif;
+    font-size: 3rem;
+    margin: 2%;
+    color: black;
+	text-transform: uppercase;
+}
+
+.page article{
+	float:left;
+	overflow:hidden;
+	width: 49%;
+	margin-left: .70%
+}
+
+
+
+.page h3 {
+	font-size: 3rem;
+	font-family: 'Teko';
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.page p{
+	font-family: 'Titillium' sans-serif;
+	width: 70%;	
+	text-align: center;	
+	margin: 0px auto 70px auto;
+}
+
+.page article figure figcaption{
+	display: none;
+}
+
+.bot{
+    font-family: 'Teko';
+    color: red;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin:50px auto;
+    display: inline-block;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+
+
+/*Footer*/
+
+.showcase{
+	background-color: #f63c3c;
+
+}
+
+.showcase h2 {
+	text-transform: uppercase;
+	font-family: 'Teko' sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 2%;
+    color: white;
+    padding-top: 2rem;
+    margin: 0px;
+}
+
+.showcase p{
+	color: #ccc	;
+	font-size: .8;
+}
+
+.showcase a {
+    bottom: -48px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: #555;
+    background-color: white;
+    font-family: 'teko';
+    letter-spacing: 3px;
+    padding: 5px 40px;
+    text-transform: uppercase;
+}
+
+.showcase
+
+aside{
+	text-align: left;
+	margin: 0 auto;
+	max-width: 1150px;
+	width: 70%;
+}
+
+aside h2{
+	text-transform: uppercase;
+	font-family: 'Teko' sans-serif;
+	font-size: 2.7rem;
+	font-weight: 300;
+    letter-spacing: 2px;
+	padding-top: 30px;
+	color: black;
+}
+
+aside p {
+	color: #555;
+	font-size: .8rem;
+}
+
+aside ul li {
+    color: white;
+    background-color: #333;
+    float: left;
+    font-family: 'Teko' sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 20%;
+    margin: 50px 0px;
+    margin-right: 6.66666666%;
+    padding: 20px;
+    text-align:center;
+}
+
+aside ul{
+	width: 80%;
+	display: inline-block;
+}
+
+aside a{
+	color: white;
+}
+
+aside a:visited{
+	color: white;
+}
+
+aside ul li h4{
+	font-size: 1.2rem;
+	}
+
+aside ul li:last-child{
+	margin-right:0px;
+}
+
+
+footer {
+	text-align: left;
+	padding: 50px;
+	display: block;
+	background-color: white;
+	font-size: .8rem;
+}
+
+footer p {
+	max-width: 80%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
